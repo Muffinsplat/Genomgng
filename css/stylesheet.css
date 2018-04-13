@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Barlow+Semi+Condensed');
+html,
+body {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.background {
+    background: url(./images/restaurant_bg.jpg) no-repeat bottom left;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    height: auto !important;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+/*White box*/
+
+.transbox {
+    margin: 0px 200px 0px 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+/*header*/
+
+h2 {
+    font-size: 36pt;
+    color: #e6c300;
+}
+.quotes {
+    font-family: 'Cinzel', serif;
+    font-size: 24pt;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.headertitle {
+    font-size: 72pt;
+    line-height: 50%;
+    text-align: center;
+    margin: 0;
+}
+.minititle {
+    font-size: 24pt;
+    text-align: center;
+    padding: 0px initial 30px;
+    margin: 0;
+}
+header {
+    color: #fbe222;
+    background-color: #333;
+}
+.stafftitle {
+    color: #4bffb7;
+    background-color: #333;
+    font-size: 24pt;
+    text-align: center;
+    padding: initial initial 400px;
+}
+table {
+    border-spacing: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*texts*/
+
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 12pt;
+}
+.gold {
+    color: #fbe222;
+}
+/*navigation*/
+
+.right {
+    float: right;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    border-top: double white;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #111;
+}
+.div1,
+.div2 {
+    width: 50%;
+    float: left;
+}
+
+/*Forms*/
+
+input {
+    width: 50%;
+    padding: 5px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  /*Lägg in png bg om transparent bg till inputs*/
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+   
+}
+button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+footer {
+    color: White;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+}
+/*background with video*/
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+}

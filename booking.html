@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="sv" lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <link rel="icon" href="images/bookingfavi.png">
+    <meta content="author" name="Jennifer Sandström" />
+    <meta charset="utf-8" />
+    <title>Booking</title>
+</head>
+
+<body>
+    <header>
+
+        <p class="quotes"> &#9733; &#9733; &#9733; &#9733; &#9734; - "Delicious!" &#9733; &#9733; &#9733; &#9733; &#9733; - "Magnificent!"</p>
+        <table>
+            <tr>
+                <td><b>Opening Hours:</b>
+                    <br />
+                    <br /> MON-TUE 10.00-21.00
+                    <br /> WED-THU 10.00-20.00
+                    <br /> FRI-SUN 00.00-23.00</td>
+                <td class="headertitle">Lorem Ipsum</td>
+                <td><b>Opening Hours:</b>
+                    <br />
+                    <br /> MON-TUE 10.00-21.00
+                    <br /> WED-THU 10.00-20.00
+                    <br /> FRI-SUN 00.00-23.00</td>
+            </tr>
+
+        </table>
+
+        <div class="minititle">Wine and Beer in World class
+        </div>
+        <br />
+    </header>
+
+    <div class="background">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a class="active" href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li class="right"><a href="login.html">Log in for staff</a></li>
+            </ul>
+        </nav>
+        <div class="transbox">
+            <h2>Book a table!</h2>
+            <br />
+            <p>Here you can book a table at any time, </p>
+            <form action="/action_page.php" target="_blank">
+                <p>
+                    <input type="text" placeholder="Name" required name="Name">
+                </p>
+                <p>
+                    <input type="text" placeholder="Phone number" required name="phone">
+                </p>
+                <p>
+                    <input type="number" min="1" max="12" placeholder="Number of people" required name="People">
+                </p>
+                <p>
+                    <input type="datetime-local" placeholder="Date and time" required name="date">
+                </p>
+                <p>
+                    <textarea rows="4" cols="50" placeholder="Special Message or Request" required name="Message"></textarea>
+                </p>
+                <p>
+                    <button type="submit">BOOK</button>
+                </p>
+            </form>
+
+            <footer>Schoolproject 1 &copy; Jennifer Sandstr&ouml;m</footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
